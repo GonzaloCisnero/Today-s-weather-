@@ -3,12 +3,10 @@
 
 
 <h2>Menu Pricipal<h2>
-  
-<a>Descripcion</a>
-  
-<a>Herramientas utilizadas</a>
-  
-<a>Responsive</a>
-  
-<a>¿Como ver el proyecto en visual code ?</a>
+<ul>
+  <li>descripcion</li>
+  <li>descripcion</li>
+  <li>descripcion</li>
+  <li>descripcion</li>
+</ul>
 
