@@ -1,0 +1,155 @@
+
+.text-ligth{
+    margin-left: 46%;
+}
+
+.card{
+    max-width: 80%;
+    border-radius: 10px;
+    border-color: #137FFF;
+}
+
+.card-desc img{
+    display: block;
+    margin: auto;
+    width: 120px;
+}
+
+.card-info{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.temperaturas{
+    background-color: #137FFF;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.card-temp{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+   display: flex;
+   justify-content: start;
+   margin-top: 150px;
+}
+
+.card-temp-max{
+    margin-top: 35px;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: end;
+
+}
+
+.card-temp-min{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: end;
+   margin-left: 10px;
+}
+
+.card-tittle{
+    min-height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.card-date{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 95px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.lluvia{
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tl{
+    background-color:#137FFF ;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.table td{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table  {
+    background-color: #f2f2f24f;
+}
+
+.noData h2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.noData p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .lluvia{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1440px){
+
+    .card-desc img{
+     width: 200px;
+
+    }
+
+    .card-tittle{
+        font-size: 50px;
+    }
+
+    .card-date{
+        font-size: 45px;
+    }
+
+    .card-temp{
+        font-size: 60px;
+    }
+
+    .card-temp-max{
+        font-size: 40px;
+    }
+    .card-temp-min{
+        font-size: 40px;
+    }
+
+    .lluvia{
+        font-size: 40px;
+    }
+}
+
